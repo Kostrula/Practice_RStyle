@@ -37,4 +37,11 @@ public class Card {
     public String getDescription(){
         return description;
     }
+
+    public  void setDefault() {
+        this.id = 111111111111L;
+        this.number = "000000000000";
+        this.name = "Ivan Ivanov";
+        this.description = "Nothing to describe";
+    }
 }

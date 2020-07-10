@@ -42,7 +42,13 @@ public class User {
         return sirName;
     }
 
-    public String getFirstName(){
-        return firstName;
+    public String getFirstName(){ return firstName; }
+
+    public  void setDefault() {
+        this.id = 111111111111L;
+        this.login = "Ivanov@.mail.ru";
+        this.password = "12345678";
+        this.firstName = "Ivan";
+        this.sirName = "Ivanov";
     }
 }
