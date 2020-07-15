@@ -1,0 +1,4 @@
+ru\softlab\galkin\onlinebank\config\MyDispatcherServletInitiallizer.class
+ru\softlab\galkin\onlinebank\controllers\AnotherController.class
+ru\softlab\galkin\onlinebank\config\WebConfig.class
+ru\softlab\galkin\onlinebank\controllers\HomeController.class

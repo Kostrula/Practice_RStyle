@@ -1,0 +1,10 @@
+version: '2.1'
+services:
+  # приложение online bank
+  online-bank:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+      - "8000:8000"
